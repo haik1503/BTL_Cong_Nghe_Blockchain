@@ -5,12 +5,17 @@ Một ứng dụng vòng quay may mắn tích hợp với **Smart Contract trên
 
 ---
 
-## 📌 Chức năng chính
+## 🚀 Tính năng nổi bật
 
-- 🎯 Quay số ngẫu nhiên chọn người thắng từ danh sách.
-- 🧾 Ghi thông tin người thắng lên blockchain (mã người thắng + thời gian).
-- 🔍 Xem lại lịch sử 5 người thắng gần nhất từ blockchain.
-- 💾 Lưu và xóa danh sách người chơi cục bộ (localStorage).
+- 🔄 Quay số ngẫu nhiên chọn người trúng thưởng.
+
+- ⛓️ Ghi kết quả trúng giải (mã người chơi + thời gian) lên blockchain.
+
+- 🕵️‍♂️ Truy xuất lịch sử 5 lượt trúng gần nhất từ smart contract.
+
+- 💾 Quản lý danh sách người chơi bằng trình duyệt (localStorage).
+
+- 🔐 Tích hợp ví MetaMask để xác thực và ký giao dịch.
 
 ---
 
@@ -88,10 +93,37 @@ lucky-draw/
 
 ## 💡 Hướng phát triển
 
-- Tích hợp NFT trao thưởng
-- Tự động gửi thông báo email/Telegram
-- Xuất lịch sử thành file CSV
-- Hỗ trợ nhiều mạng: Polygon, BNB Testnet...
+- 📈 Mở rộng & phát triển
+
+- 🖼️ Tặng NFT cho người thắng cuộc
+
+- 📬 Gửi thông báo qua Email/Telegram
+
+- 📊 Xuất lịch sử kết quả thành CSV
+
+- 🔗 Hỗ trợ nhiều mạng: Polygon, Binance Smart Chain (Testnet/Mainnet)
+
+- 🎯 Tự động hóa quá trình chọn và ghi nhận kết quả định kỳ
+
+---
+
+🔒 Minh bạch & bảo mật
+
+- Kết quả được ghi vĩnh viễn lên blockchain, không thể chỉnh sửa
+
+- Mỗi người thắng đều được xác nhận thông qua giao dịch blockchain
+
+- Giao dịch có thể theo dõi tại Sepolia Etherscan
+
+---
+
+📚 Tài liệu tham khảo
+
+- ethers.js Documentation
+
+- Hardhat Official Site
+
+- Winwheel.js
 
 ---
 
