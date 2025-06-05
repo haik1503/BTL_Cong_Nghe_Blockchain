@@ -131,7 +131,7 @@ lucky-draw/
 
 ## 👤 Tác giả
 
-- 👨‍💻 Nguyễn Đăng Chính – [Metamask: 0x...644D4](https://sepolia.etherscan.io/address/0x...)
+- 👨‍💻 Nguyễn Thanh Hải – [Metamask: 0x...644D4](https://sepolia.etherscan.io/address/0x...)
 - 🎓 Đại học Đại Nam
 
 
