@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vòng Quay May Mắn</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="Winwheel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+
+
+</head>
+<body>
+  <h1>🏢 Vòng Quay May Mắn Lớp Học</h1>
+
+  <div class="container">
+    <!-- Bên trái: nhập tên -->
+    <div class="left-panel">
+      <input type="text" id="nameInput" placeholder="Nhập tên người tham gia">
+      <button onclick="addParticipant()">+ Thêm người</button>
+
+      <textarea id="bulkNames" placeholder="Dán nhiều tên tại đây, mỗi tên 1 dòng"></textarea>
+      <button onclick="addMultiple()">📥 Thêm nhiều</button>
+
+      <ul id="participantList"></ul>
+
+      <button onclick="spinWheel()">🎯 Quay vòng</button>
+      <button onclick="saveToBlockchain()">⚙️ Ghi kết quả lên Blockchain</button>
+      <button onclick="showHistory()">📖 Xem kết quả blockchain</button>
+      <button onclick="saveParticipants()">📁 Lưu danh sách tham gia</button>
+      <button onclick="clearParticipants()">🗑️ Xoá danh sách</button>
+
+      <div id="winnerDisplay"></div>
+    </div>
+
+    <!-- Chính giữa: vòng quay -->
+    <div class="wheel-container">
+      <canvas id="wheelCanvas" width="650" height="650"></canvas>
+    </div>
+
+    <!-- Bên phải: lịch sử -->
+    <div class="right-panel">
+      <h3>Lịch sử chiến thắng</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
