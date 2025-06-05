@@ -1,7 +1,9 @@
 
 # 🎡 Lucky Draw on Blockchain
 
-Một ứng dụng vòng quay may mắn tích hợp với **Smart Contract trên Sepolia Testnet**, đảm bảo minh bạch và lưu trữ lịch sử người trúng giải trên blockchain.
+**Lucky Draw on Blockchain:** là một ứng dụng vòng quay may mắn được xây dựng trên nền tảng blockchain nhằm đảm bảo tính minh bạch, công bằng và không thể gian lận. Thay vì chỉ quay số trên giao diện web như các ứng dụng thông thường, toàn bộ kết quả người thắng sẽ được ghi lại trực tiếp lên smart contract triển khai trên Sepolia Testnet – một mạng thử nghiệm của Ethereum.
+
+Người dùng có thể kết nối ví MetaMask, tham gia quay số, và xác nhận giao dịch để ghi kết quả. Mỗi lượt trúng thưởng đều được lưu trữ trên blockchain, cho phép bất kỳ ai kiểm chứng lại lịch sử một cách công khai. Đây là một minh chứng cho việc ứng dụng công nghệ blockchain vào các hoạt động tương tác, sự kiện, hoặc trò chơi may rủi cần yếu tố minh bạch và đáng tin cậy.
 
 ---
 
